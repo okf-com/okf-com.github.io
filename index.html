@@ -61,13 +61,6 @@
 
     
     
-    
-    <script>
-        var win = window, doc = document, re = /_PF_/,
-            script = '<script type="text/javascript" src="//static.bafang.com/cdn/assets/okfe/libs/polyfills/_PF_"><\/script>';
-        win.fetch || doc.write(script.replace(re, 'fetch-polyfill.min.js'));
-        win.Promise && Object.assign && ''.includes && [].includes || doc.write(script.replace(re, 'es6-polyfill.min.js'));
-    </script>
 
     <script src="//static.bafang.com/cdn/assets/okfe/util/ont/0.4.21/ont.js"></script>
     <script src="//static.bafang.com/cdn/assets/okfe/util/monitor/2.2.7/index.js"></script>
